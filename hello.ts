@@ -1,1 +1,5 @@
-console.log("Hello World!");
+const sayHello = (name: string): string => {
+    return `Hello ${name.toUpperCase()}!`
+}
+
+console.log(sayHello('pepe'));
