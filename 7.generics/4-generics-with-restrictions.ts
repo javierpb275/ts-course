@@ -24,4 +24,4 @@ function upload2<Publication2 extends PostI, Extra2>(p: Publication2, e?: Extra2
 }
 
 let post2: NoteI = { id:0, message: 'hello world'}
-let y = upload(post2)
+let y = upload2(post2)
