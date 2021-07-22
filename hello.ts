@@ -1,5 +1,11 @@
-const sayHello = (name: string): string => {
-    return `Hello ${name.toUpperCase()}!`
+export function sum(a: number, b: number) {
+    return a + b;
 }
 
-console.log(sayHello('pepe'));
+export function subtract(a: number, b: number) {
+    return a - b;
+}
+
+export function multiply(a: number, b: number) {
+    return a * b;
+}
